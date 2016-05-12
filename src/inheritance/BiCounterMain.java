@@ -14,12 +14,12 @@ public class BiCounterMain
         BiCounter c = new BiCounter ();
 
         /* Inherited method. */
-        c.inc();
-        c.inc();
-        c.inc();
-        c.inc();
+        c.inc ();
+        c.inc ();
+        c.inc ();
+        c.inc ();
         /* New method. */
-        c.dec();
+        c.dec ();
 
         System.out.println (c.getValue ());
     }

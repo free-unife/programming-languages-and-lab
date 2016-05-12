@@ -15,26 +15,26 @@ public class SuperCounterMain
         SuperCounter c = new SuperCounter ();
 
         /* Overridden method. */
-        c.inc();
-        c.inc();
-        c.inc();
-        c.inc();
+        c.inc ();
+        c.inc ();
+        c.inc ();
+        c.inc ();
         /* Overloaded methods. */
-        c.inc(5);
-        c.dec(25);
+        c.inc (5);
+        c.dec (25);
 
-        c.inc();
+        c.inc ();
+        System.out.println (c.getValue ());
+        c.inc ();
         System.out.println (c.getValue ());
         c.inc();
         System.out.println (c.getValue ());
-        c.inc();
+        c.inc ();
+        c.inc ();
+        c.inc ();
+        c.inc ();
         System.out.println (c.getValue ());
-        c.inc();
-        c.inc();
-        c.inc();
-        c.inc();
-        System.out.println (c.getValue ());
-        c.inc();
+        c.inc ();
         System.out.println (c.getValue ());
     }
 }
