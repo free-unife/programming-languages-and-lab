@@ -1,5 +1,5 @@
 /*
- * Character.java
+ * Characters.java
  *
  * Copyright © 2016 Franco Masotti <franco.masotti@student.unife.it>
  * This work is free. You can redistribute it and/or modify it under the
