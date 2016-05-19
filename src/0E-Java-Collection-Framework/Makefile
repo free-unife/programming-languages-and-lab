@@ -13,7 +13,7 @@ WORDS = "hallo" "how" "are" "you?" "and" "you?" "I'm" "fine" "thank" "you."
 
 .PHONY: clean
 
-default: setmain listmain mapmain sortedmapmain collectionsmain
+default: setmain listmain mapmain sortedmapmain collectionsmain cascadingmain
 
 clean:
 	@echo "Removing object files..."
@@ -45,4 +45,9 @@ sortedmapmain:
 collectionsmain:
 	@cd collections && javac -cp . Person.java NameSort.java
 	@cd collections && java -cp . NameSort
+	@printf "\n"
+
+cascadingmain:
+	@cd cascading-operation-and-generic-typing && javac -cp . MyStack.java CascadingMain.java
+	@cd cascading-operation-and-generic-typing && java -cp . CascadingMain
 	@printf "\n"

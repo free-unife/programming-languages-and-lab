@@ -9,7 +9,6 @@
 
 import java.util.*;
 
-/* TODO THIS NEEDS TO BE REVIEWED IN ORDER TO AVOID WARNINGS */
 class NameSort
 {
     public static void main (String[] args)
@@ -27,7 +26,7 @@ class NameSort
             new Person ("Biff", "Tannon")
         };
         /* Transform the previously defined array into a List object. */
-        List l =  Arrays.asList (arrayOfPeople);
+        List<Person> l =  Arrays.asList (arrayOfPeople);
 
         /* Service method. Sorts by increasing order. */
         Collections.sort (l);
