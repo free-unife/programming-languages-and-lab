@@ -23,16 +23,16 @@ public class Circle extends Shape
      */
     public double area ()
     {
-        return (Math.PI * r * r);
+        return (Math.PI * this.r * this.r);
     }
 
     public double perimeter ()
     {
-        return (2 * Math.PI * r);
+        return (2 * Math.PI * this.r);
     }
 
     public double getRadius ()
     {
-        return (r);
+        return (this.r);
     }
 }

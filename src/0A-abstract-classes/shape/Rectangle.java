@@ -22,21 +22,21 @@ public class Rectangle extends Shape
 
     public double area ()
     {
-        return (w * h);
+        return (this.w * this.h);
     }
 
     public double perimeter ()
     {
-        return ((2 * w) + (2 * h));
+        return ((2 * this.w) + (2 * this.h));
     }
 
     public double getWidth ()
     {
-        return (w);
+        return this.w;
     }
 
     public double getHeight ()
     {
-        return (h);
+        return this.h;
     }
 }
