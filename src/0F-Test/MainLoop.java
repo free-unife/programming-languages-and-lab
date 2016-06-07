@@ -11,15 +11,14 @@ public class MainLoop
 {
     public static void main (String[] args)
     {
+        Database db = new Database ();
 
-            Database db = new Database ();
-
-            db.parseFile ("orders.txt");
-            while (true)
-            {
-                System.out.println (db);
-                System.out.println (db.printWeightRange ());
-                System.out.println (db.getModelsFromInput ());
-            }
+        db.parseFile ("orders.txt");
+        while (true)
+        {
+           System.out.println (db);
+           System.out.println (db.printWeightRange ());
+           System.out.println (db.getModelsFromInput ());
+        }
     }
 }
