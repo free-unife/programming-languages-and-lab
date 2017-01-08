@@ -1,0 +1,9 @@
+//Le classi cominciano con la maiuscola. La classe deve chiamarsi come il nome del file.
+public class MyClass //E' come il main del C
+{
+	public static void main(String args[]) //Questo e' il vero main. Si sta dicendo che la funzione main e' un metodo della classe. Classe e' un insieme. Un metodo e' statico, cioe' ha proprietà statiche.
+	{
+		System.out.println("Hello World");
+		hhhh}
+}
+

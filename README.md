@@ -1,33 +1,24 @@
-# oop-training
-My attempt to finally learn what object oriented programming is and what one can do with it
+# programming-languages-and-lab
 
-##Prerequisites
-- Install `jdk8-openjdk` and `jre8-openjdk-headless` which are on 
-the `libre` repo on Parabola GNU/Linux-libre. Optionally you can install 
-`openjdk8-doc` which is on the `extra` repo.
+Java files related to "Linguaggi di Programmazione 
+e laboratorio" course in UNIFE (University of Ferrara), 
+year 2013-2014, as well as material
+personally studied and applied in 2016.
 
-- Add a shell alias to make life much simpler (the following works if you use 
-bash):
-```
-$ printf "alias java='java -cp .'\n" >> ~/.bashrc
-```
+## Structure
+ 
+This repository is divided in two parts:
+- `class`: exercises done in/for class which are not very clear.
+- `oop-training`: re-study of the course using different material.
+  Much cleaner and organized.
 
-To compile and run:
-```
-$ javac ClassName.java
-$ java ClassName
-```
+## License
 
-This method is not handy if you have multiple files to compile and run. I 
-recommend using the Makefiles instead.
+Copyright © 2016 Franco Masotti <franco.masotti@student.unife.it>
+This work is free. You can redistribute it and/or modify it under the
+terms of the Do What The Fuck You Want To Public License, Version 2,
+as published by Sam Hocevar. See the LICENSE file for more details.
 
-## Makefiles
-Most directories include a Makefile that will build and execute the programs 
-in a much easier fashion than doing it by hand. The only thing to do is to 
-`$ cat Makefile` to know what the available targets are, and then `$ make 
-[TARGET]`.
-
-##License
 Every file in this repository is covered by the WTFPL. I decided not to use
 the GPL because all these are implemetations of well known situations,
 so the copyleft clause and others clauses are not necessary here.

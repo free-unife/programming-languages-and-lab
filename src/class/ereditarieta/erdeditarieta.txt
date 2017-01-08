@@ -1,0 +1,26 @@
+/*
+ * ereditarieta.txt
+ *
+ * Copyright © 2016 Franco Masotti <franco.masotti@student.unife.it>
+ * This work is free. You can redistribute it and/or modify it under the
+ * terms of the Do What The Fuck You Want To Public License, Version 2,
+ * as published by Sam Hocevar. See the LICENSE file for more details.
+ */
+
+Classificazione di cose livello per livello
+
+Non viventi Viventi
+	     |	|
+	Piante	Animali
+		|	|	|
+		Cielo Acqua Terra
+				|
+				bipede
+				|
+				uomo
+
+Uomo eredita le proprietà delle superclassi.
+Altro esempio e' quello dei veicoli.
+Quando una classe eredita qualcosa da un'altra classe si dice che la sottoclasse estende (extends) la superclasse. Si può anche dire che c'è una specializzazione. 
+
+Bisogna compilare i file in ordine dai file Superclasse ai file sottoclasse
